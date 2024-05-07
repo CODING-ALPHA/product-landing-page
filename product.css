@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* THE PRODUCT CONTAINER */
+.container {
+  display: flex;
+  width: max-content;
+  background-color: #fff;
+  justify-content: center;
+  border-radius: 11px;
+  height: 450px;
+  transition-duration: 0.4s;
+  overflow: hidden;
+}
+
+/* For the images */
+
+img {
+  width: 290px;
+  /* height: 450px; */
+  text-align: center;
+}
+.mobilepic {
+  display: none;
+}
+
+/* For all the typography */
+
+.typography {
+  width: 310px;
+  padding: 1.5rem 1.9rem 0.2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.paragraph1 {
+  color: hsl(228, 12%, 48%);
+  font-family: "Outfit", sans-serif;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: "Fraunces", serif;
+  width: 240px;
+}
+
+.paragraph2 {
+  color: hsl(228, 12%, 48%);
+  font-family: "Outfit", sans-serif;
+  line-height: 1.3rem;
+  width: 235px;
+}
+
+/* The prices */
+
+.prices {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+
+.price1 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+}
+.price2 {
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  line-height: 1;
+}
+
+/*  The Add to Cart button, cart icon and hover effects */
+
+.btn {
+  margin-bottom: 20px;
+}
+
+button {
+  border: 1px solid transparent;
+  border-radius: 7px;
+  background: hsl(158, 36%, 37%);
+  color: #fff;
+  width: 100%;
+  height: 45px;
+  transition: 0.4s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+button img {
+  width: 7%;
+}
+
+button p {
+  font-family: "Outfit", sans-serif;
+}
+
+button:active {
+  background-color: rgb(38, 62, 54);
+}
+
+/* The footer  */
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-content: flex-end;
+  font-size: 16px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
